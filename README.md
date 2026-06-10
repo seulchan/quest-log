@@ -1,17 +1,31 @@
-# Learning Rust
+# Quest Log
 
-> Quest: Become a Rustacean
+> Main Quest: Continuous Learning
 
-## Quest Log
+## Active Quests
 
-### Completed Quests
+### 🦀 Rust
 
-🏆 -
+- [Rustlings](./rust/rustlings/README.md)
 
-### Active Quest
+### 🤖 AI & ML
 
-⚔️ Rustlings
+-
 
-### Upcoming Quests
+### 💻 Software Engineering
 
-🔒 -
+-
+
+## Completed Quests
+
+### 🦀 Rust
+
+-
+
+### 🤖 AI & ML
+
+-
+
+### 💻 Software Engineering
+
+-
