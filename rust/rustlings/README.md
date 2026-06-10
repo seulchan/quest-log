@@ -2,15 +2,19 @@
 
 Exercises from Rustlings.
 
+## Status
+
+🟡 In Progress
+
 ## Progress
 
-0 / 23 Completed
+1 / 23 Completed
 
-## Exercise
+## Exercises
 
 | Status | Exercise        | Book Chapter |
 | ------ | --------------- | ------------ |
-| ⏳     | variables       | §3.1         |
+| ✅     | variables       | §3.1         |
 | ⏳     | functions       | §3.3         |
 | ⏳     | if              | §3.5         |
 | ⏳     | primitive_types | §3.2, §4.3   |
