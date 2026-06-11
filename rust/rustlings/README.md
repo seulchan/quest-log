@@ -8,7 +8,7 @@ Exercises from Rustlings.
 
 ## Progress
 
-2 / 23 Completed
+3 / 23 Completed
 
 ## Exercises
 
@@ -16,7 +16,7 @@ Exercises from Rustlings.
 | ------ | --------------- | ------------ |
 | ✅     | variables       | §3.1         |
 | ✅     | functions       | §3.3         |
-| ⏳     | if              | §3.5         |
+| ✅     | if              | §3.5         |
 | ⏳     | primitive_types | §3.2, §4.3   |
 | ⏳     | vecs            | §8.1         |
 | ⏳     | move_semantics  | §4.1-2       |
