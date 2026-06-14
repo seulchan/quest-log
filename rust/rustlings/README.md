@@ -8,7 +8,7 @@ Exercises from Rustlings.
 
 ## Progress
 
-6 / 23 Completed
+7 / 23 Completed
 
 ## Exercises
 
@@ -20,7 +20,7 @@ Exercises from Rustlings.
 | ✅     | primitive_types | §3.2, §4.3   |
 | ✅     | vecs            | §8.1         |
 | ✅     | move_semantics  | §4.1-2       |
-| ⏳     | structs         | §5.1, §5.3   |
+| ✅     | structs         | §5.1, §5.3   |
 | ⏳     | enums           | §6, §18.3    |
 | ⏳     | strings         | §8.2         |
 | ⏳     | modules         | §7           |
