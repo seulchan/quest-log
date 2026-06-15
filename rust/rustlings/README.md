@@ -8,7 +8,7 @@ Exercises from Rustlings.
 
 ## Progress
 
-10 / 23 Completed
+11 / 23 Completed
 
 ## Exercises
 
@@ -24,7 +24,7 @@ Exercises from Rustlings.
 | ✅     | enums           | §6, §18.3    |
 | ✅     | strings         | §8.2         |
 | ✅     | modules         | §7           |
-| ⏳     | hashmaps        | §8.3         |
+| ✅     | hashmaps        | §8.3         |
 | ⏳     | options         | §10.1        |
 | ⏳     | error_handling  | §9           |
 | ⏳     | generics        | §10          |
