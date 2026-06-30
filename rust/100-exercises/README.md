@@ -8,13 +8,13 @@ JetBrains Academy
 
 ## Progress
 
-2 / 81 Completed
+11 / 81 Completed
 
 ## Sections
 
 | Status | Section            | Progress |
 | ------ | ------------------ | -------- |
-| ⚔️     | A Basic Calculator | 2 / 11   |
+| ✅     | A Basic Calculator | 11 / 11  |
 | ⏳     | Ticket v1          | 0 / 13   |
 | ⏳     | Traits             | 0 / 15   |
 | ⏳     | Ticket v2          | 0 / 16   |
@@ -29,15 +29,15 @@ JetBrains Academy
 | ------ | ------------------------------- | ------------------ |
 | ✅     | Introduction                    | A Basic Calculator |
 | ✅     | Integers                        | A Basic Calculator |
-| ⏳     | Variables                       | A Basic Calculator |
-| ⏳     | Branching if-else               | A Basic Calculator |
-| ⏳     | Panics                          | A Basic Calculator |
-| ⏳     | Factorial                       | A Basic Calculator |
-| ⏳     | Loops while                     | A Basic Calculator |
-| ⏳     | Loops for                       | A Basic Calculator |
-| ⏳     | Overflow and underflow          | A Basic Calculator |
-| ⏳     | Saturating arithmetic           | A Basic Calculator |
-| ⏳     | Conversions - as casting        | A Basic Calculator |
+| ✅     | Variables                       | A Basic Calculator |
+| ✅     | Branching if-else               | A Basic Calculator |
+| ✅     | Panics                          | A Basic Calculator |
+| ✅     | Factorial                       | A Basic Calculator |
+| ✅     | Loops while                     | A Basic Calculator |
+| ✅     | Loops for                       | A Basic Calculator |
+| ✅     | Overflow and underflow          | A Basic Calculator |
+| ✅     | Saturating arithmetic           | A Basic Calculator |
+| ✅     | Conversions - as casting        | A Basic Calculator |
 | ⏳     | Introduction                    | Ticket v1          |
 | ⏳     | Structs                         | Ticket v1          |
 | ⏳     | Validation                      | Ticket v1          |
