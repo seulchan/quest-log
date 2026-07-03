@@ -15,7 +15,7 @@
 
 ### 💻 Software Engineering
 
--
+- [Coding interview](./swe/coding-interview/README.md)
 
 ## Completed Quests
 
