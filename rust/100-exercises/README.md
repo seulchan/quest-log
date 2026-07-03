@@ -8,15 +8,15 @@ JetBrains Academy
 
 ## Progress
 
-11 / 81 Completed
+24 / 81 Completed
 
 ## Sections
 
 | Status | Section            | Progress |
 | ------ | ------------------ | -------- |
 | ✅     | A Basic Calculator | 11 / 11  |
-| ⏳     | Ticket v1          | 0 / 13   |
-| ⏳     | Traits             | 0 / 15   |
+| ✅     | Ticket v1          | 13 / 13  |
+| ⚔️     | Traits             | 0 / 15   |
 | ⏳     | Ticket v2          | 0 / 16   |
 | ⏳     | Ticket Management  | 0 / 17   |
 | ⏳     | Threads            | 0 / 15   |
@@ -38,19 +38,19 @@ JetBrains Academy
 | ✅     | Overflow and underflow          | A Basic Calculator |
 | ✅     | Saturating arithmetic           | A Basic Calculator |
 | ✅     | Conversions - as casting        | A Basic Calculator |
-| ⏳     | Introduction                    | Ticket v1          |
-| ⏳     | Structs                         | Ticket v1          |
-| ⏳     | Validation                      | Ticket v1          |
-| ⏳     | Modules                         | Ticket v1          |
-| ⏳     | Visibility                      | Ticket v1          |
-| ⏳     | Encapsulation                   | Ticket v1          |
-| ⏳     | Ownership                       | Ticket v1          |
-| ⏳     | Setters                         | Ticket v1          |
-| ⏳     | Stack                           | Ticket v1          |
-| ⏳     | Heap                            | Ticket v1          |
-| ⏳     | References in memory            | Ticket v1          |
-| ⏳     | Destructors                     | Ticket v1          |
-| ⏳     | Outro                           | Ticket v1          |
+| ✅     | Introduction                    | Ticket v1          |
+| ✅     | Structs                         | Ticket v1          |
+| ✅     | Validation                      | Ticket v1          |
+| ✅     | Modules                         | Ticket v1          |
+| ✅     | Visibility                      | Ticket v1          |
+| ✅     | Encapsulation                   | Ticket v1          |
+| ✅     | Ownership                       | Ticket v1          |
+| ✅     | Setters                         | Ticket v1          |
+| ✅     | Stack                           | Ticket v1          |
+| ✅     | Heap                            | Ticket v1          |
+| ✅     | References in memory            | Ticket v1          |
+| ✅     | Destructors                     | Ticket v1          |
+| ✅     | Outro                           | Ticket v1          |
 | ⏳     | Introduction                    | Traits             |
 | ⏳     | Trait                           | Traits             |
 | ⏳     | Orphan rule                     | Traits             |

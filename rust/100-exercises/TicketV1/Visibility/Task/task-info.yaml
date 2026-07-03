@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 118
-        length: 10
+        length: 3
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -13,8 +13,8 @@ files:
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
         status: Unchecked
-      - offset: 146
-        length: 10
+      - offset: 139
+        length: 3
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -23,8 +23,8 @@ files:
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
         status: Unchecked
-      - offset: 282
-        length: 10
+      - offset: 268
+        length: 3
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -41,7 +41,7 @@ files:
     visible: true
     placeholders:
       - offset: 1152
-        length: 48
+        length: 51
         placeholder_text: "assert_eq!(ticket.description, \"A description\");"
         initial_state:
           length: 48
@@ -50,8 +50,8 @@ files:
         encrypted_possible_answer: 51Tz8ITgzfwhaot9aQaa/PDNKSjg2zwJ8x3W19bSm5AHizmOMjl3qd6pkLK43RDGN9MuOqekg42DkdsFNb5kpA==
         selected: false
         status: Unchecked
-      - offset: 1861
-        length: 126
+      - offset: 1867
+        length: 135
         placeholder_text: "let ticket = Ticket {  \n\t\t\t title: \"A title\".into(),\n\
       \t\t\t description: \"A description\".into(),\n\t\t\t status: \"To-Do\".into()\
       \ \n\t\t};"
@@ -63,5 +63,8 @@ files:
         selected: false
         status: Unchecked
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 03 Jul 2026 03:09:49 UTC"
 record: -1
