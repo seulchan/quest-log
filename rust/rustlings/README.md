@@ -8,7 +8,7 @@ Exercises from Rustlings.
 
 ## Progress
 
-14 / 23 Completed
+15 / 23 Completed
 
 ## Exercises
 
@@ -28,7 +28,7 @@ Exercises from Rustlings.
 | ✅     | options         | §10.1        |
 | ✅     | error_handling  | §9           |
 | ✅     | generics        | §10          |
-| ⏳     | traits          | §10.2        |
+| ✅     | traits          | §10.2        |
 | ⏳     | lifetimes       | §10.3        |
 | ⏳     | tests           | §11.1        |
 | ⏳     | iterators       | §13.2-4      |
