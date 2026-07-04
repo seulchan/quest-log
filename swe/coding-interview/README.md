@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `3` Problems
+**Solved:** `4` Problems
 
 ---
 
@@ -14,7 +14,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 | Algorithmic Pattern     | Solved |
 | ----------------------- | -----: |
-| Arrays & Hashing        |      2 |
+| Arrays & Hashing        |      3 |
 | Two Pointers            |      1 |
 | Sliding Window          |      0 |
 | Stack                   |      0 |
@@ -44,6 +44,9 @@ AI can generate code. Engineers build understanding. This repository is a record
   - **Complexity:** Time $O(N)$ / Space $O(1)$
 - [x] [Replace Elements with Greatest Element on Right Side](./solutions/replace-elements.py)
   - **Insight:** When a problem requires finding the maximum or minimum of elements to the right, a forward (left-to-right) scan forces redundant sub-array lookups, leading to quadratic time complexity. Reversing the direction and scanning from right to left allows us to maintain a running "Suffix Maximum" in a single pass.
+  - **Complexity:** Time $O(N)$ / Space $O(1)$
+- [x] [Concatenation of Array](./solutions/concatenation-of-array.py)
+  - **Insight:** Python provides highly optimized built-in methods like `extend()` or the `+` operator for sequence concatenation. Utilizing `nums.extend(nums)` modifies the array in-place, which is incredibly efficient as it leverages underlying C-level optimizations in Python. Alternatively, allocating a new array of size 2N and using index offsetting (`idx + N`) demonstrates a lower-level manual approach to populating duplicated blocks in a single pass.
   - **Complexity:** Time $O(N)$ / Space $O(1)$
 
 ### Two Pointers
