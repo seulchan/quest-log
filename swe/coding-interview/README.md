@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `4` Problems
+**Solved:** `7` Problems
 
 ---
 
@@ -17,7 +17,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Arrays & Hashing        |      3 |
 | Two Pointers            |      1 |
 | Sliding Window          |      0 |
-| Stack                   |      0 |
+| Stack                   |      3 |
 | Binary Search           |      0 |
 | Linked List             |      0 |
 | Trees                   |      0 |
@@ -54,6 +54,18 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Remove Element](./solutions/max-consecutive-ones.py)
   - **Insight:** Use a forward-moving write pointer to overwrite unwanted elements in place. Traverse the array in a single pass and only write elements that do not match the target value.
   - **Complexity:** Time $O(N)$ / Space $O(1)$
+
+### Stack
+
+- [x] [Baseball Game](./solutions/baseball-game.py)
+  - **Insight:** Use a stack to keep track of the history of valid scores. Each operations ("+", "D", "C") interacts directly with the top (most recent) elements of the stack, which perfectly matches the Last-In-First-Out (LIFO) property.
+  - **Complexity:** Time $O(N)$ / Space $O(N)$
+- [x] [Valid Parentheses](./solutions/valid-parentheses.py)
+  - **Insight:** Use a hash map to map closing brackets to their corresponding opening brackets. As we traverse the string, we push opening brackets onto a stack. When a closing bracket is encountered, it must match the top of the stack (the most recently opened bracket). Any mismatch or leftover brackets in the stack at the end indicates an invalid sequence.
+  - **Complexity:** Time $O(N)$ / Space $O(N)$
+- [x] [Min Stack](./solutions/min-stack.py)
+  - **Insight:** A single variable cannot track the minimum value effectively because popping the current minimum requires restoring the _previous_ minimum. To achieve O(1) for all operations, maintain a primary stack alongside a secondary `minStack`. The `minStack` stores the running minimum corresponding to each state of the primary stack, ensuring that pushing and popping keep both stacks perfectly synchronized.
+  - **Complexity:** Time $O(1)$ for all operations / Space $O(N)$
 
 ---
 
