@@ -8,7 +8,7 @@ JetBrains Academy
 
 ## Progress
 
-24 / 81 Completed
+39 / 81 Completed
 
 ## Sections
 
@@ -16,8 +16,8 @@ JetBrains Academy
 | ------ | ------------------ | -------- |
 | ✅     | A Basic Calculator | 11 / 11  |
 | ✅     | Ticket v1          | 13 / 13  |
-| ⚔️     | Traits             | 0 / 15   |
-| ⏳     | Ticket v2          | 0 / 16   |
+| ✅     | Traits             | 15 / 15  |
+| ⚔️     | Ticket v2          | 0 / 16   |
 | ⏳     | Ticket Management  | 0 / 17   |
 | ⏳     | Threads            | 0 / 15   |
 | ⏳     | Futures            | 0 / 9    |
@@ -51,21 +51,21 @@ JetBrains Academy
 | ✅     | References in memory            | Ticket v1          |
 | ✅     | Destructors                     | Ticket v1          |
 | ✅     | Outro                           | Ticket v1          |
-| ⏳     | Introduction                    | Traits             |
-| ⏳     | Trait                           | Traits             |
-| ⏳     | Orphan rule                     | Traits             |
-| ⏳     | Operator overloading            | Traits             |
-| ⏳     | Derive macros                   | Traits             |
-| ⏳     | Trait bounds                    | Traits             |
-| ⏳     | String slices                   | Traits             |
-| ⏳     | Deref trait                     | Traits             |
-| ⏳     | Sized trait                     | Traits             |
-| ⏳     | From trait                      | Traits             |
-| ⏳     | Associated vs generic types     | Traits             |
-| ⏳     | Clone trait                     | Traits             |
-| ⏳     | Copy trait                      | Traits             |
-| ⏳     | Drop trait                      | Traits             |
-| ⏳     | Outro                           | Traits             |
+| ✅     | Introduction                    | Traits             |
+| ✅     | Trait                           | Traits             |
+| ✅     | Orphan rule                     | Traits             |
+| ✅     | Operator overloading            | Traits             |
+| ✅     | Derive macros                   | Traits             |
+| ✅     | Trait bounds                    | Traits             |
+| ✅     | String slices                   | Traits             |
+| ✅     | Deref trait                     | Traits             |
+| ✅     | Sized trait                     | Traits             |
+| ✅     | From trait                      | Traits             |
+| ✅     | Associated vs generic types     | Traits             |
+| ✅     | Clone trait                     | Traits             |
+| ✅     | Copy trait                      | Traits             |
+| ✅     | Drop trait                      | Traits             |
+| ✅     | Outro                           | Traits             |
 | ⏳     | Introduction                    | Ticket v2          |
 | ⏳     | Enums                           | Ticket v2          |
 | ⏳     | Branching - match               | Ticket v2          |

@@ -8,7 +8,7 @@
 use std::cmp::max;
 
 /// Return the minimum of two values.
-pub fn min<T/* TODO */>(left: T, right: T) -> T {
+pub fn min<T: PartialOrd>(left: T, right: T) -> T {
     if left <= right {
         left
     } else {
