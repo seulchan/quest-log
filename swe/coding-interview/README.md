@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `7` Problems
+**Solved:** `10` Problems
 
 ---
 
@@ -19,7 +19,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Sliding Window          |      0 |
 | Stack                   |      3 |
 | Binary Search           |      0 |
-| Linked List             |      0 |
+| Linked List             |      3 |
 | Trees                   |      0 |
 | Heap / Priority Queue   |      0 |
 | Backtracking            |      0 |
@@ -48,6 +48,9 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Concatenation of Array](./solutions/concatenation-of-array.py)
   - **Insight:** Python provides highly optimized built-in methods like `extend()` or the `+` operator for sequence concatenation. Utilizing `nums.extend(nums)` modifies the array in-place, which is incredibly efficient as it leverages underlying C-level optimizations in Python. Alternatively, allocating a new array of size 2N and using index offsetting (`idx + N`) demonstrates a lower-level manual approach to populating duplicated blocks in a single pass.
   - **Complexity:** Time $O(N)$ / Space $O(1)$
+- [ ] [Design Dynamic Array (Resizable Array)](./solutions/design-dynamic-array.py)
+  - **Insight:**
+  - **Complexity:**
 
 ### Two Pointers
 
@@ -66,6 +69,17 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Min Stack](./solutions/min-stack.py)
   - **Insight:** A single variable cannot track the minimum value effectively because popping the current minimum requires restoring the _previous_ minimum. To achieve O(1) for all operations, maintain a primary stack alongside a secondary `minStack`. The `minStack` stores the running minimum corresponding to each state of the primary stack, ensuring that pushing and popping keep both stacks perfectly synchronized.
   - **Complexity:** Time $O(1)$ for all operations / Space $O(N)$
+
+### Linked List
+
+- [x] [Design Linked List](./solutions/design-linked-list.py)
+  - **Insight:** Designing a robust linked list requires precise handling of edge cases such as inserting at the boundaries (head/tail) or deleting the last node. Utilizing a dummy head node simplifies insertion and deletion routines by ensuring that a predecessor node always exists. Additionally, maintaining a `tail` pointer enables O(1) operations for appending elements to the end of the list.
+- [x] [Reverse Linked List](./solutions/reverse-linked-list.py)
+  - **Insight:** Reverse a singly linked list in-place by maintaining three pointers: `prev` (the already reversed list), `curr` (the current node being processed), and a temporary `temp` pointer. At each step, isolate the rest of the list by saving `curr.next`, flip the current node's pointer backwards to point to `prev`, and shift both `prev` and `curr` forward.
+  - **Complexity:** Time $O(N)$ / Space $O(1)$
+- [x] [Merge Two Sorted Linked Lists](./solutions/merge-two-sorted-linked-list.py)
+  - **Insight:** Use a dummy node to seamlessly build the merged linked list without handling null-head edge cases. By comparing the heads of both lists at each step, append the smaller node to the merged list and advance the corresponding pointer. Once one list is exhausted, append the remaining part of the other list directly in O(1) time.
+  - **Complexity:** Time $O(N + M)$ / Space $O(1)$
 
 ---
 
