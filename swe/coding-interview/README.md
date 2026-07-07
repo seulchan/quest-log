@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `10` Problems
+**Solved:** `12` Problems
 
 ---
 
@@ -19,7 +19,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Sliding Window          |      0 |
 | Stack                   |      3 |
 | Binary Search           |      0 |
-| Linked List             |      3 |
+| Linked List             |      5 |
 | Trees                   |      0 |
 | Heap / Priority Queue   |      0 |
 | Backtracking            |      0 |
@@ -50,7 +50,6 @@ AI can generate code. Engineers build understanding. This repository is a record
   - **Complexity:** Time $O(N)$ / Space $O(1)$
 - [ ] [Design Dynamic Array (Resizable Array)](./solutions/design-dynamic-array.py)
   - **Insight:**
-  - **Complexity:**
 
 ### Two Pointers
 
@@ -72,14 +71,19 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ### Linked List
 
-- [x] [Design Linked List](./solutions/design-linked-list.py)
-  - **Insight:** Designing a robust linked list requires precise handling of edge cases such as inserting at the boundaries (head/tail) or deleting the last node. Utilizing a dummy head node simplifies insertion and deletion routines by ensuring that a predecessor node always exists. Additionally, maintaining a `tail` pointer enables O(1) operations for appending elements to the end of the list.
+- [x] [Design Singly Linked List](./solutions/design-singly-linked-list.py)
+  - **Insight:** Introducing a tracking variable `self.size` transforms boundary validation into an O(1) operation, preventing unnecessary list traversals for out-of-bound indices. By pairing the size check with a dedicated `tail` pointer, appending elements to the end of the list (`addAtIndex` at the boundary) can bypass the traversal loop completely, jumping straight to an O(1) operational path.
+- [x] [Design Doubly Linked List](./solutions/design-doubly-linked-list.py)
+  - **Insight:** Upgrading to a Doubly Linked List with dual sentinel nodes (Dummy Head & Dummy Tail) significantly simplifies implementation by removing boundary checks during insertions and deletions. By maintaining a `size` property, we can optimize item lookup to run in O(N/2) time by traversing from the head if the target index is in the first half, or from the tail if it is in the second half.
 - [x] [Reverse Linked List](./solutions/reverse-linked-list.py)
   - **Insight:** Reverse a singly linked list in-place by maintaining three pointers: `prev` (the already reversed list), `curr` (the current node being processed), and a temporary `temp` pointer. At each step, isolate the rest of the list by saving `curr.next`, flip the current node's pointer backwards to point to `prev`, and shift both `prev` and `curr` forward.
   - **Complexity:** Time $O(N)$ / Space $O(1)$
 - [x] [Merge Two Sorted Linked Lists](./solutions/merge-two-sorted-linked-list.py)
   - **Insight:** Use a dummy node to seamlessly build the merged linked list without handling null-head edge cases. By comparing the heads of both lists at each step, append the smaller node to the merged list and advance the corresponding pointer. Once one list is exhausted, append the remaining part of the other list directly in O(1) time.
   - **Complexity:** Time $O(N + M)$ / Space $O(1)$
+- [x] [Browser History](./solutions/browser-history.py)
+  - **Insight:** While a dynamic array provides O(1) jumping for `back` and `forward` navigation, rewriting the history timeline during a `visit` forces an O(N) slicing operation to clear forward history. A Doubly Linked List solves this by allowing O(1) history truncation—simply dropping the old `next` pointer and pointing to the new node. However, this trade-off makes navigation linear O(M steps) as we must physically traverse the node chain.
+  - **Complexity:** Time $O(1)$ for visit(), $O(min(n, steps))$ for back() and forward() / Space $O(M*N)$
 
 ---
 
