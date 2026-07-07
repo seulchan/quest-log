@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `12` Problems
+**Solved:** `16` Problems
 
 ---
 
@@ -14,12 +14,13 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 | Algorithmic Pattern     | Solved |
 | ----------------------- | -----: |
-| Arrays & Hashing        |      3 |
+| Arrays & Hashing        |      4 |
 | Two Pointers            |      1 |
 | Sliding Window          |      0 |
 | Stack                   |      3 |
 | Binary Search           |      0 |
 | Linked List             |      5 |
+| Queue                   |      3 |
 | Trees                   |      0 |
 | Heap / Priority Queue   |      0 |
 | Backtracking            |      0 |
@@ -39,6 +40,8 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ### Arrays & Hashing
 
+- [x] [Design Dynamic Array (Resizable Array)](./solutions/design-dynamic-array.py)
+  - **Insight:** A dynamic array achieves O(1) random access while supporting dynamic resizing. The core mechanic relies on fixed-size allocations; when the element count (`length`) reaches the allocated limits (`capacity`), a `resize()` occurs. By doubling the capacity during a resize rather than increasing it incrementally, the costly O(N) copy operations are minimized, allowing the `pushback` operation to maintain an average **O(1) Amortized** time complexity.
 - [x] [Max Consecutive Ones](./solutions/max-consecutive-ones.py)
   - **Insight:** Maintain a running streak of consecutive 1s. Reset on 0 and update the maximum streak in a single pass.
   - **Complexity:** Time $O(N)$ / Space $O(1)$
@@ -48,8 +51,6 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Concatenation of Array](./solutions/concatenation-of-array.py)
   - **Insight:** Python provides highly optimized built-in methods like `extend()` or the `+` operator for sequence concatenation. Utilizing `nums.extend(nums)` modifies the array in-place, which is incredibly efficient as it leverages underlying C-level optimizations in Python. Alternatively, allocating a new array of size 2N and using index offsetting (`idx + N`) demonstrates a lower-level manual approach to populating duplicated blocks in a single pass.
   - **Complexity:** Time $O(N)$ / Space $O(1)$
-- [ ] [Design Dynamic Array (Resizable Array)](./solutions/design-dynamic-array.py)
-  - **Insight:**
 
 ### Two Pointers
 
@@ -84,6 +85,17 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Browser History](./solutions/browser-history.py)
   - **Insight:** While a dynamic array provides O(1) jumping for `back` and `forward` navigation, rewriting the history timeline during a `visit` forces an O(N) slicing operation to clear forward history. A Doubly Linked List solves this by allowing O(1) history truncation—simply dropping the old `next` pointer and pointing to the new node. However, this trade-off makes navigation linear O(M steps) as we must physically traverse the node chain.
   - **Complexity:** Time $O(1)$ for visit(), $O(min(n, steps))$ for back() and forward() / Space $O(M*N)$
+
+### Queue
+
+- [x] [Design Double-ended Queue](./solutions/design-double-ended-queue.py)
+  - **Insight:** Implementing a Double Ended Queue (Deque) with a Doubly Linked List provides strict O(1) performance for all boundary operations. By anchoring the data structure with two permanent sentinel nodes (`head` and `tail`), we can safely bypass structural "empty list" edge cases. Inserting or deleting elements at either extreme simplifies into a uniform four-way pointer update, isolating the mutation between a sentinel and its immediate neighbor.
+- [x] [Implement Stack Using Queues](./solutions/stack-using-queue.py)
+  - **Insight:** To implement a Stack (LIFO) using a Queue (FIFO), we must ensure that the most recently added element is always positioned at the front of the queue. By leveraging a single queue, we can achieve this during the `push` operation: append the new element, and then cyclically shift all previous `len(q) - 1` elements by popping them from the front and appending them back to the rear.
+  - **Complexity:** Time $O(N)$ for push, $O(1)$ for pop, top, empty / Space $O(N)$
+- [x] [Number of Students Unable to Eat Lunch](./solutions/stduent-queue.py)
+  - **Insight:** This problem simulates a queue-stack matching process with a specific gridlock condition: if the top sandwich matches no one currently in the queue, the simulation halts. By tracking a rotation counter (`cnt`), we can detect when a full loop has occurred without any match. If a match is found, the sandwich is consumed, the queue shrinks, and the rotation reset condition triggers.
+  - **Complexity:** Time $O(N^2)$ / Space $O(N)$
 
 ---
 
