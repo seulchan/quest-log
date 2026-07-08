@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `16` Problems
+**Solved:** `18` Problems
 
 ---
 
@@ -27,11 +27,11 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Tries                   |      0 |
 | Graphs                  |      0 |
 | Advanced Graphs         |      0 |
-| 1-D Dynamic Programming |      0 |
+| 1-D Dynamic Programming |      1 |
 | 2-D Dynamic Programming |      0 |
 | Greedy                  |      0 |
 | Intervals               |      0 |
-| Math & Geometry         |      0 |
+| Math & Geometry         |      1 |
 | Bit Manipulation        |      0 |
 
 ---
@@ -77,8 +77,11 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Design Doubly Linked List](./solutions/design-doubly-linked-list.py)
   - **Insight:** Upgrading to a Doubly Linked List with dual sentinel nodes (Dummy Head & Dummy Tail) significantly simplifies implementation by removing boundary checks during insertions and deletions. By maintaining a `size` property, we can optimize item lookup to run in O(N/2) time by traversing from the head if the target index is in the first half, or from the tail if it is in the second half.
 - [x] [Reverse Linked List](./solutions/reverse-linked-list.py)
-  - **Insight:** Reverse a singly linked list in-place by maintaining three pointers: `prev` (the already reversed list), `curr` (the current node being processed), and a temporary `temp` pointer. At each step, isolate the rest of the list by saving `curr.next`, flip the current node's pointer backwards to point to `prev`, and shift both `prev` and `curr` forward.
-  - **Complexity:** Time $O(N)$ / Space $O(1)$
+  - **Insight:** While the iterative approach flips pointers on the way forward using constant space, the recursive approach utilizes the implicit runtime call stack to reach the end of the list first. As the recursion unwinds backward, each node reverses its relationship with its successor (`head.next.next = head`) and severs its old forward link (`head.next = None`) to prevent cyclic loops.
+  - **Complexity:**
+    - 1st Approach (Iterative): Time O(N) / Space O(1)
+    - 2nd Approach (Recursive): Time O(N) / Space O(N) (due to call stack)
+
 - [x] [Merge Two Sorted Linked Lists](./solutions/merge-two-sorted-linked-list.py)
   - **Insight:** Use a dummy node to seamlessly build the merged linked list without handling null-head edge cases. By comparing the heads of both lists at each step, append the smaller node to the merged list and advance the corresponding pointer. Once one list is exhausted, append the remaining part of the other list directly in O(1) time.
   - **Complexity:** Time $O(N + M)$ / Space $O(1)$
@@ -96,6 +99,18 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Number of Students Unable to Eat Lunch](./solutions/stduent-queue.py)
   - **Insight:** This problem simulates a queue-stack matching process with a specific gridlock condition: if the top sandwich matches no one currently in the queue, the simulation halts. By tracking a rotation counter (`cnt`), we can detect when a full loop has occurred without any match. If a match is found, the sandwich is consumed, the queue shrinks, and the rotation reset condition triggers.
   - **Complexity:** Time $O(N^2)$ / Space $O(N)$
+
+### 1-D Dynamic Programming
+
+- [x] [Climbing Stairs](./solutions/climb-stairs.py)
+  - **Insight:** The problem of reaching the n-th stair breaks down into smaller subproblems: to reach stair `i`, you must come from either stair `i-1` (taking 1 step) or stair `i-2` (taking 2 steps). This recursive structure directly mimics the Fibonacci sequence pattern. By adding a memoization array (`cache`), we prune the redundant branches of the decision tree, converting an exponential O(2^N) time complexity into linear O(N).
+  - **Complexity:** Time $O(N)$ / Space $O(N)$
+
+### Math & Geometry
+
+- [x] [Power of Two](./solutions/power-of-two.py)
+  - **Insight:** A mathematical power of two can be reduced to the base case of 1 by continuous division by 2 without ever producing a remainder. In a recursive structure, any number that hits an odd remainder before reaching 1 (checked via `n % 2 == 1`) or drops below the valid domain (`n <= 0`) can be immediately pruned from the execution path.
+  - **Complexity:** Time $O(log N)$ / Space $O(log N)$
 
 ---
 
