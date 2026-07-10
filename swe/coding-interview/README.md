@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `22` Problems
+**Solved:** `25` Problems
 
 ---
 
@@ -18,7 +18,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Two Pointers            |      1 |
 | Sliding Window          |      0 |
 | Stack                   |      4 |
-| Binary Search           |      0 |
+| Binary Search           |      3 |
 | Linked List             |      5 |
 | Queue                   |      3 |
 | Trees                   |      0 |
@@ -58,6 +58,12 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Valid Parentheses](./solutions/valid-parentheses.py)
 - [x] [Min Stack](./solutions/min-stack.py)
 - [x] [Daily Temperatures](./solutions/daily-temperatures.py)
+
+### Binary Search
+
+- [x] [Binary Search](./solutions/binary-search.py)
+- [x] [Guess Number Higher or Lower](./solutions/guess-number.py)
+- [x] [Koko Eating Bananas](./solutions/koko-eating.py)
 
 ### Linked List
 
