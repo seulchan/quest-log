@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `25` Problems
+**Solved:** `27` Problems
 
 ---
 
@@ -21,7 +21,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Binary Search           |      3 |
 | Linked List             |      5 |
 | Queue                   |      3 |
-| Trees                   |      0 |
+| Trees                   |      2 |
 | Heap / Priority Queue   |      0 |
 | Backtracking            |      0 |
 | Tries                   |      0 |
@@ -78,6 +78,11 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Design Double-ended Queue](./solutions/design-double-ended-queue.py)
 - [x] [Implement Stack Using Queues](./solutions/stack-using-queue.py)
 - [x] [Number of Students Unable to Eat Lunch](./solutions/stduent-queue.py)
+
+### Trees
+
+- [x] [Insert into a Binary Search Tree](./solutions/insert-into-bst.py)
+- [x] [Delete Node in a BST](./solutions/delete-node-in-bst.py)
 
 ### 1-D Dynamic Programming
 
