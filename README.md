@@ -11,7 +11,8 @@
 
 ### 🤖 AI & ML
 
--
+- [Sutskever's List](./ai/sutskever-list/README.md)
+- [AI Paper Review](./ai/paper-review/README.md)
 
 ### 💻 Software Engineering
 
