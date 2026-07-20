@@ -8,7 +8,7 @@ Exercises from Rustlings.
 
 ## Progress
 
-20 / 23 Completed
+21 / 23 Completed
 
 ## Exercises
 
@@ -34,7 +34,7 @@ Exercises from Rustlings.
 | ✅     | iterators       | §13.2-4      |
 | ✅     | smart_pointers  | §15, §16.3   |
 | ✅     | threads         | §16.1-3      |
-| ⏳     | macros          | §20.5        |
+| ✅     | macros          | §20.5        |
 | ⏳     | clippy          | Appendix D   |
 | ⏳     | conversions     | n/a          |
 
