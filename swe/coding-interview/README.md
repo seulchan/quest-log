@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `32` Problems
+**Solved:** `35` Problems
 
 ---
 
@@ -21,9 +21,9 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Binary Search           |      3 |
 | Linked List             |      5 |
 | Queue                   |      3 |
-| Trees                   |      7 |
+| Trees                   |      8 |
 | Heap / Priority Queue   |      0 |
-| Backtracking            |      0 |
+| Backtracking            |      2 |
 | Tries                   |      0 |
 | Graphs                  |      0 |
 | Advanced Graphs         |      0 |
@@ -88,6 +88,12 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Kth Smallest Integer in BST](./solutions/kth-smallest-integer.py)
 - [x] [Binary Tree Level Order Traversal](./solutions/bt-level-order.py)
 - [x] [Binary Tree Right Side View](./solutions/bt-right-side-view.py)
+- [x] [Path Sum](./solutions/path-sum.py)
+
+### Backtracking
+
+- [x] [Subsets](./solutions/subsets.py)
+- [x] [Combination Sum](./solutions/combination-sum.py)
 
 ### 1-D Dynamic Programming
 
