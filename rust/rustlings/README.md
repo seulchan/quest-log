@@ -4,11 +4,11 @@ Exercises from Rustlings.
 
 ## Status
 
-🟡 In Progress
+🟢 Completed
 
 ## Progress
 
-21 / 23 Completed
+23 / 23 Completed
 
 ## Exercises
 
@@ -35,8 +35,8 @@ Exercises from Rustlings.
 | ✅     | smart_pointers  | §15, §16.3   |
 | ✅     | threads         | §16.1-3      |
 | ✅     | macros          | §20.5        |
-| ⏳     | clippy          | Appendix D   |
-| ⏳     | conversions     | n/a          |
+| ✅     | clippy          | Appendix D   |
+| ✅     | conversions     | n/a          |
 
 ## Legend
 

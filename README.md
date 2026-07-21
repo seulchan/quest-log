@@ -6,7 +6,6 @@
 
 ### 🦀 Rust
 
-- [Rustlings](./rust/rustlings/README.md)
 - [100 Exercises](./rust/100-exercises/README.md)
 
 ### 🤖 AI & ML
@@ -22,7 +21,7 @@
 
 ### 🦀 Rust
 
--
+- [Rustlings](./rust/rustlings/README.md)
 
 ### 🤖 AI & ML
 
