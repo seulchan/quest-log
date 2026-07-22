@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `35` Problems
+**Solved:** `39` Problems
 
 ---
 
@@ -22,7 +22,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Linked List             |      5 |
 | Queue                   |      3 |
 | Trees                   |      8 |
-| Heap / Priority Queue   |      0 |
+| Heap / Priority Queue   |      4 |
 | Backtracking            |      2 |
 | Tries                   |      0 |
 | Graphs                  |      0 |
@@ -90,10 +90,17 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Binary Tree Right Side View](./solutions/bt-right-side-view.py)
 - [x] [Path Sum](./solutions/path-sum.py)
 
+### Heap / Priority Queue
+
+- [x] [Kth Largest Element in an Array](./solutions/kth-largest-elem-in-array.py)
+- [x] [Kth Largest Element in a Stream](./solutions/kth-largest-elem-in-stream.py)
+
 ### Backtracking
 
 - [x] [Subsets](./solutions/subsets.py)
 - [x] [Combination Sum](./solutions/combination-sum.py)
+- [x] [Last Stone Weight](./solutions/last-stone-weight.py)
+- [x] [K Closest Points to Origin](./solutions/k-closest-points.py)
 
 ### 1-D Dynamic Programming
 
