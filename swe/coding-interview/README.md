@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `39` Problems
+**Solved:** `43` Problems
 
 ---
 
@@ -23,10 +23,10 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Queue                   |      3 |
 | Trees                   |      8 |
 | Heap / Priority Queue   |      4 |
+| Hashing                 |      4 |
 | Backtracking            |      2 |
 | Tries                   |      0 |
 | Graphs                  |      0 |
-| Advanced Graphs         |      0 |
 | 1-D Dynamic Programming |      1 |
 | 2-D Dynamic Programming |      0 |
 | Greedy                  |      0 |
@@ -94,6 +94,13 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 - [x] [Kth Largest Element in an Array](./solutions/kth-largest-elem-in-array.py)
 - [x] [Kth Largest Element in a Stream](./solutions/kth-largest-elem-in-stream.py)
+
+### Hashing
+
+- [x] [LRU Cache](./solutions/lru-cache.py)
+- [x] [Valid Anagram](./solutions/valid-anagram.py)
+- [x] [Two Sum](./solutions/two-sum.py)
+- [x] [Contain Duplicate](./solutions/contain-duplicate.py)
 
 ### Backtracking
 
