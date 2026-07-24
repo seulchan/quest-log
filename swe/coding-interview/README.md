@@ -26,7 +26,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Hashing                 |      4 |
 | Backtracking            |      2 |
 | Tries                   |      0 |
-| Graphs                  |      0 |
+| Graphs                  |      2 |
 | 1-D Dynamic Programming |      1 |
 | 2-D Dynamic Programming |      0 |
 | Greedy                  |      0 |
@@ -108,6 +108,11 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Combination Sum](./solutions/combination-sum.py)
 - [x] [Last Stone Weight](./solutions/last-stone-weight.py)
 - [x] [K Closest Points to Origin](./solutions/k-closest-points.py)
+
+### Graph
+
+- [x] [Flood Fill](./solutions/flood-fill.py)
+- [x] [Shortest Path in Binary Matrix](./solutions/shortest-path.py)
 
 ### 1-D Dynamic Programming
 
