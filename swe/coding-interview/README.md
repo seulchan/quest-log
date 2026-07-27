@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `45` Problems
+**Solved:** `49` Problems
 
 ---
 
@@ -26,9 +26,9 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Hashing                 |      4 |
 | Backtracking            |      2 |
 | Tries                   |      0 |
-| Graphs                  |      4 |
-| 1-D Dynamic Programming |      1 |
-| 2-D Dynamic Programming |      0 |
+| Graphs                  |      6 |
+| 1-D Dynamic Programming |      2 |
+| 2-D Dynamic Programming |      1 |
 | Greedy                  |      0 |
 | Intervals               |      0 |
 | Math & Geometry         |      1 |
@@ -115,10 +115,17 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Shortest Path in Binary Matrix](./solutions/shortest-path.py)
 - [x] [Number of Islands](./solutions/number-of-islands.py)
 - [x] [Max Area of Island](./solutions/max-area-of-island.py)
+- [x] [Rotting Oranges](./solutions/rotting-oranges.py)
+- [x] [Course Schedule](./solutions/course-schedule.py)
 
 ### 1-D Dynamic Programming
 
 - [x] [Climbing Stairs](./solutions/climb-stairs.py)
+- [x] [House Robber](./solutions/house-robber.py)
+
+### 2-D Dynamic Programming
+
+- [x] [Unique Paths](./solutions/unique-paths.py)
 
 ### Math & Geometry
 
