@@ -29,7 +29,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Graphs                  |      6 |
 | 1-D Dynamic Programming |      2 |
 | 2-D Dynamic Programming |      1 |
-| Greedy                  |      0 |
+| Greedy                  |      2 |
 | Intervals               |      0 |
 | Math & Geometry         |      1 |
 | Bit Manipulation        |      3 |
@@ -126,6 +126,11 @@ AI can generate code. Engineers build understanding. This repository is a record
 ### 2-D Dynamic Programming
 
 - [x] [Unique Paths](./solutions/unique-paths.py)
+
+### Greedy
+
+- [x] [Maximum Subarray](./solutions/maximum-subarray.py)
+- [x] [Maximum Sum Circular Subarray](./solutions/maximum-sum-circular-subarray.py)
 
 ### Math & Geometry
 
