@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `49` Problems
+**Solved:** `52` Problems
 
 ---
 
@@ -32,7 +32,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Greedy                  |      0 |
 | Intervals               |      0 |
 | Math & Geometry         |      1 |
-| Bit Manipulation        |      0 |
+| Bit Manipulation        |      3 |
 
 ---
 
@@ -130,6 +130,12 @@ AI can generate code. Engineers build understanding. This repository is a record
 ### Math & Geometry
 
 - [x] [Power of Two](./solutions/power-of-two.py)
+
+### Bit Manipulation
+
+- [x] [Number of 1 Bits](./solutions/number-of-1-bits.py)
+- [x] [Counting Bits](./solutions/counting-bits.py)
+- [x] [Reverse Bits](./solutions/reverse-bits.py)
 
 ---
 
