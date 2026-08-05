@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `52` Problems
+**Solved:** `54` Problems
 
 ---
 
@@ -16,7 +16,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | ----------------------- | -----: |
 | Arrays & Hashing        |      7 |
 | Two Pointers            |      1 |
-| Sliding Window          |      0 |
+| Sliding Window          |      2 |
 | Stack                   |      4 |
 | Binary Search           |      3 |
 | Linked List             |      5 |
@@ -51,6 +51,11 @@ AI can generate code. Engineers build understanding. This repository is a record
 ### Two Pointers
 
 - [x] [Remove Element](./solutions/max-consecutive-ones.py)
+
+### Sliding Window
+
+- [x] [Contains Duplicate II](./solutions/contains-duplicate-2.py)
+- [x] [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](./solutions/number-of-sub-arrays.py)
 
 ### Stack
 
