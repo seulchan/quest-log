@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `54` Problems
+**Solved:** `60` Problems
 
 ---
 
@@ -16,7 +16,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | ----------------------- | -----: |
 | Arrays & Hashing        |      7 |
 | Two Pointers            |      1 |
-| Sliding Window          |      2 |
+| Sliding Window          |      4 |
 | Stack                   |      4 |
 | Binary Search           |      3 |
 | Linked List             |      5 |
@@ -56,6 +56,8 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 - [x] [Contains Duplicate II](./solutions/contains-duplicate-2.py)
 - [x] [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](./solutions/number-of-sub-arrays.py)
+- [x] [Minimum Size Subarray Sum](./solutions/minimum-size-subarray.py)
+- [x] [Longest Substring Without Repeating Characters](./solutions/longest-substring-without-repeating-characters.py)
 
 ### Stack
 
@@ -99,6 +101,8 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 - [x] [Kth Largest Element in an Array](./solutions/kth-largest-elem-in-array.py)
 - [x] [Kth Largest Element in a Stream](./solutions/kth-largest-elem-in-stream.py)
+- [x] [Last Stone Weight](./solutions/last-stone-weight.py)
+- [x] [K Closest Points to Origin](./solutions/k-closest-points.py)
 
 ### Hashing
 
@@ -111,8 +115,6 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 - [x] [Subsets](./solutions/subsets.py)
 - [x] [Combination Sum](./solutions/combination-sum.py)
-- [x] [Last Stone Weight](./solutions/last-stone-weight.py)
-- [x] [K Closest Points to Origin](./solutions/k-closest-points.py)
 
 ### Graph
 
