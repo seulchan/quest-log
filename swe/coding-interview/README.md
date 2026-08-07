@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `60` Problems
+**Solved:** `63` Problems
 
 ---
 
@@ -50,7 +50,10 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ### Two Pointers
 
-- [x] [Remove Element](./solutions/max-consecutive-ones.py)
+- [x] [Max Consecutive Ones](./solutions/max-consecutive-ones.py)
+- [x] [Valid Palindrome](./solutions/valid-palindrome.py)
+- [x] [Two Integer Sum II](./solutions/two-integer-sum-2.py)
+- [x] [Remove Duplicates from Sorted Array](./solutions/remove-duplicates-from-sorted-array.py)
 
 ### Sliding Window
 
