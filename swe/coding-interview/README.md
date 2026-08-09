@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `63` Problems
+**Solved:** `66` Problems
 
 ---
 
@@ -14,7 +14,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 | Algorithmic Pattern     | Solved |
 | ----------------------- | -----: |
-| Arrays & Hashing        |      7 |
+| Arrays & Hashing        |     10 |
 | Two Pointers            |      1 |
 | Sliding Window          |      4 |
 | Stack                   |      4 |
@@ -47,6 +47,9 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Insertion Sort](./solutions/insertion-sort.py)
 - [x] [Merge Sort](./solutions/merge-sort.py)
 - [x] [Quick Sort](./solutions/quick-sort.py)
+- [x] [Range Sum Query](./solutions/range-sum-query.py)
+- [x] [Find Pivot Index](./solutions/find-pivot-index.py)
+- [x] [Product of Array Except Self](./solutions/product-of-array-except-self.py)
 
 ### Two Pointers
 
