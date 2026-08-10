@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `66` Problems
+**Solved:** `68` Problems
 
 ---
 
@@ -15,7 +15,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Algorithmic Pattern     | Solved |
 | ----------------------- | -----: |
 | Arrays & Hashing        |     10 |
-| Two Pointers            |      1 |
+| Two Pointers            |      6 |
 | Sliding Window          |      4 |
 | Stack                   |      4 |
 | Binary Search           |      3 |
@@ -53,10 +53,12 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ### Two Pointers
 
-- [x] [Max Consecutive Ones](./solutions/max-consecutive-ones.py)
 - [x] [Valid Palindrome](./solutions/valid-palindrome.py)
 - [x] [Two Integer Sum II](./solutions/two-integer-sum-2.py)
 - [x] [Remove Duplicates from Sorted Array](./solutions/remove-duplicates-from-sorted-array.py)
+- [x] [Middle of the Linked List](./solutions/middle-of-the-linked-list.py)
+- [x] [Linked List Cycle Detection](./solutions/linked-list-cycle-detection.py)
+- [x] [Find the Duplicate Number](./solutions/find-duplicate-number.py)
 
 ### Sliding Window
 
