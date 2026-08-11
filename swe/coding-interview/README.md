@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `68` Problems
+**Solved:** `70` Problems
 
 ---
 
@@ -25,7 +25,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Heap / Priority Queue   |      4 |
 | Hashing                 |      4 |
 | Backtracking            |      2 |
-| Tries                   |      0 |
+| Tries                   |      2 |
 | Graphs                  |      6 |
 | 1-D Dynamic Programming |      2 |
 | 2-D Dynamic Programming |      1 |
@@ -123,6 +123,11 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 - [x] [Subsets](./solutions/subsets.py)
 - [x] [Combination Sum](./solutions/combination-sum.py)
+
+### Tries
+
+- [x] [Implement Trie](./solutions/implement-trie.py)
+- [x] [Design Add and Search Words Data Structure](./solutions/design-add-search-words.py)
 
 ### Graph
 
