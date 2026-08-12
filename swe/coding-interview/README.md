@@ -6,7 +6,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 ## Progress
 
-**Solved:** `70` Problems
+**Solved:** `73` Problems
 
 ---
 
@@ -14,7 +14,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 
 | Algorithmic Pattern     | Solved |
 | ----------------------- | -----: |
-| Arrays & Hashing        |     10 |
+| Arrays & Hashing        |     15 |
 | Two Pointers            |      6 |
 | Sliding Window          |      4 |
 | Stack                   |      4 |
@@ -23,10 +23,10 @@ AI can generate code. Engineers build understanding. This repository is a record
 | Queue                   |      3 |
 | Trees                   |      8 |
 | Heap / Priority Queue   |      4 |
-| Hashing                 |      4 |
 | Backtracking            |      2 |
 | Tries                   |      2 |
 | Graphs                  |      6 |
+| Union-Find              |      2 |
 | 1-D Dynamic Programming |      2 |
 | 2-D Dynamic Programming |      1 |
 | Greedy                  |      2 |
@@ -50,6 +50,11 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Range Sum Query](./solutions/range-sum-query.py)
 - [x] [Find Pivot Index](./solutions/find-pivot-index.py)
 - [x] [Product of Array Except Self](./solutions/product-of-array-except-self.py)
+- [x] [LRU Cache](./solutions/lru-cache.py)
+- [x] [Valid Anagram](./solutions/valid-anagram.py)
+- [x] [Two Sum](./solutions/two-sum.py)
+- [x] [Contain Duplicate](./solutions/contain-duplicate.py)
+- [x] [Longest Consecutive Sequence](./solutions/longest-consecutive-sequence.py)
 
 ### Two Pointers
 
@@ -112,13 +117,6 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Last Stone Weight](./solutions/last-stone-weight.py)
 - [x] [K Closest Points to Origin](./solutions/k-closest-points.py)
 
-### Hashing
-
-- [x] [LRU Cache](./solutions/lru-cache.py)
-- [x] [Valid Anagram](./solutions/valid-anagram.py)
-- [x] [Two Sum](./solutions/two-sum.py)
-- [x] [Contain Duplicate](./solutions/contain-duplicate.py)
-
 ### Backtracking
 
 - [x] [Subsets](./solutions/subsets.py)
@@ -129,7 +127,7 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Implement Trie](./solutions/implement-trie.py)
 - [x] [Design Add and Search Words Data Structure](./solutions/design-add-search-words.py)
 
-### Graph
+### Graphs
 
 - [x] [Flood Fill](./solutions/flood-fill.py)
 - [x] [Shortest Path in Binary Matrix](./solutions/shortest-path.py)
@@ -137,6 +135,11 @@ AI can generate code. Engineers build understanding. This repository is a record
 - [x] [Max Area of Island](./solutions/max-area-of-island.py)
 - [x] [Rotting Oranges](./solutions/rotting-oranges.py)
 - [x] [Course Schedule](./solutions/course-schedule.py)
+
+### Union-Find
+
+- [x] [Redundant Connection](./solutions/redundant-connection.py)
+- [x] [Number of Connected Components in an Undirected Graph](./solutions/number-of-connected-comp.py)
 
 ### 1-D Dynamic Programming
 
